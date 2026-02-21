@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airpost — A Letter To Your Heart</title>
 
+<style>
+body{
+  margin:0;
+  font-family: Georgia, "Times New Roman", serif;
+  color:#111;
+  background:#ffffff;
+}
+
+/* Header */
+header{
+  text-align:center;
+  padding-top:40px;
+}
+.logo{
+  font-size:42px;
+}
+nav{
+  margin-top:10px;
+  font-style:italic;
+}
+nav a{
+  margin:0 14px;
+  text-decoration:none;
+  color:#333;
+}
+nav a:hover{border-bottom:1px solid #888}
+
+/* Divider */
+.line{
+  margin-top:18px;
+  border-top:1px solid #e6e6e6;
+}
+
+/* Split section */
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+.split{
+  display:grid;
+  grid-template-columns:1fr 1.4fr;
+  margin-top:80px;
+  min-height:520px;
+}
+.left{
+  text-align:center;
+  padding:80px 60px;
+  border-right:1px solid #e6e6e6;
+}
+.left h1{
+  font-size:34px;
+  letter-spacing:1px;
+}
+.left p{
+  font-style:italic;
+  color:#555;
+  max-width:420px;
+  margin:auto;
+}
+.button{
+  margin-top:28px;
+  padding:10px 18px;
+  border:1px solid black;
+  display:inline-block;
+  cursor:pointer;
+}
+.button:hover{
+  background:black;
+  color:white;
+}
+
+/* image placeholder */
+.right{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f5f5f5;
+  color:#999;
+  font-size:14px;
+}
+
+/* shop */
+.shop{
+  text-align:center;
+  margin-top:90px;
+}
+.products{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  max-width:900px;
+  margin:40px auto;
+}
+.card{
+  border:1px solid #e6e6e6;
+  padding:30px;
+}
+.price{
+  margin-top:10px;
+  font-weight:bold;
+}
+
+/* footer */
+footer{
+  text-align:center;
+  margin:80px 0 40px;
+  color:#777;
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Airpost</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="line"></div>
+</header>
+
+<div class="container">
+
+<!-- HERO -->
+<section class="split" id="home">
+  <div class="left">
+    <h1>A LETTER TO YOUR HEART</h1>
+    <p>
+      Each mist is a small letter — sent into the air.
+      Paired with a quiet soundscape to help you slow down and breathe.
+    </p>
+    <div class="button">Explore the Mists</div>
+  </div>
+
+  <div class="right">
+    Image coming soon
+  </div>
+</section>
+
+<!-- SHOP -->
+<section class="shop" id="shop">
+  <h2>Shop</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <h3>Calm & Focus Mist</h3>
+      <p>Eucalyptus · Rosemary · Peppermint</p>
+      <div class="price">$20</div>
+    </div>
+
+    <div class="card">
+      <h3>Serenity Night Mist</h3>
+      <p>Lavender · Chamomile · Ylang Ylang</p>
+      <div class="price">$25</div>
+    </div>
+
+  </div>
+</section>
+
+<footer id="contact">
+  © 2026 Airpost — Send your feelings into the air
+</footer>
+
+</div>
+</body>
+</html>
