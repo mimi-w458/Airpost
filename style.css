@@ -1,0 +1,58 @@
+/* ===== Airpost Global Style ===== */
+
+body{
+  margin:0;
+  font-family: Georgia, "Times New Roman", serif;
+  color:#2b2b2b;
+  background:#f4f2ee;
+}
+
+/* 讓內容像紙張 */
+.page{
+  max-width:1100px;
+  margin:40px auto;
+  background:#ffffff;
+  padding:40px 60px;
+  box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+/* Header */
+header{
+  text-align:center;
+  padding:28px 0 18px 0;
+}
+
+.logo{
+  font-size:42px;
+  letter-spacing:1px;
+  color:#1c1c1c;
+}
+
+.tagline{
+  font-size:13px;
+  letter-spacing:2px;
+  color:#a8a39a;
+  margin-top:6px;
+  margin-bottom:8px;
+  font-style:italic;
+}
+
+nav a{
+  margin:0 14px;
+  text-decoration:none;
+  color:#8f8d87;
+  transition:.25s;
+}
+
+nav a:hover{
+  color:#2b2b2b;
+  border-bottom:1px solid #a89f94;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  margin-top:60px;
+  color:#888;
+  font-size:13px;
+}
